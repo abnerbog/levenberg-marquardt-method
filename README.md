@@ -5,7 +5,7 @@ nonlinear least squares curve-fitting problems](https://people.duke.edu/~hpgavin
 <img src="./images/fitting_example.gif?raw=true" width="4098px">
 
 ### How to Use:
-- Input data and initial guesses of parameter values into [example_LM.py](example_LM.py) (contains main function)
+- Input raw data and initial guesses of parameter values into [example_LM.py](example_LM.py) (contains main function)
     - Test data and inputs included for reference
 - Change model fitting equation in [levenberg_marquardt.py](levenberg_marquardt.py) via 'lm_func' function
 
