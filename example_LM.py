@@ -47,7 +47,15 @@ def main(x,y,p_init):
 
     Returns
     -------
-    None.
+    p       : least-squares optimal estimate of the parameter values
+    Chi_sq  : reduced Chi squared error criteria - should be close to 1
+    sigma_p : asymptotic standard error of the parameters
+    sigma_y : asymptotic standard error of the curve-fit
+    corr    : correlation matrix of the parameters
+    R_sq    : R-squared cofficient of multiple determination  
+    cvg_hst : convergence history (col 1: function calls, col 2: reduced chi-sq,
+              col 3 through n: parameter values). Row number corresponds to
+              iteration number.
 
     """
     
