@@ -4,7 +4,7 @@
     
 import numpy as np
 import matplotlib.pyplot as plt
-import levenberg_marquadt as LM
+import levenberg_marquardt as LM
 
 def make_noisy_test_data(p_true,Npnt,msmnt_err):
     """
