@@ -385,7 +385,7 @@ def lm(p,t,y_dat):
 
         # update convergence history ... save _reduced_ Chi-square
         cvg_hst[iteration-1,0] = func_calls
-        cvg_hst[iteration-1,1] = X2/DoF
+        cvg_hst[iteration-1,1] = (X2/DoF).item()
         
         for i in range(Npar):
             cvg_hst[iteration-1,i+2] = p.T[0][i]
